@@ -1,0 +1,165 @@
+body {
+  max-width: 1100px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: rgb(242, 242, 242);
+}
+* {
+  margin: 0;
+}
+header,
+footer {
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+}
+header nav,
+header div {
+  width: 70%;
+  margin: 0% 15%;
+}
+header > p {
+  text-align: center;
+  color: white;
+  padding: 5px;
+  background-color: rgb(135, 158, 15);
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.logo p {
+  color: white;
+  margin-bottom: 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 2% 2%;
+  text-align: center;
+}
+.rubbon {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.transparent {
+  background-color: rgb(174, 189, 64);
+}
+main {
+  width: 70%;
+  margin: 0% 15% 3% 15%;
+  background-color: white;
+  padding-bottom: 3%;
+}
+main div,
+article {
+  margin: 0% 4%;
+}
+h1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+  color: rgb(98, 101, 110);
+}
+h2 {
+  color: rgb(135, 158, 15);
+  display: flex;
+  font-size: 25px;
+}
+h2:after {
+  content: "";
+  border-bottom: rgb(135, 158, 15) solid 1px;
+  display: inline-block;
+  vertical-align: middle;
+  flex: 1;
+  margin: auto 0.25em;
+}
+.amélie img {
+  float: left;
+  margin: 2%;
+  width: 50%;
+}
+.xavier {
+  clear: both;
+}
+.xavier img {
+  float: right;
+  margin: 2%;
+  width: 50%;
+}
+.concept {
+  background-color: rgb(234, 239, 207);
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 0%;
+}
+.concept div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.copyright {
+  background-color: rgb(135, 158, 15);
+  color: white;
+  padding: 3% 0%;
+}
+.copyright p {
+  width: 70%;
+  margin: 0% 15%;
+  text-align: center;
+  font-size: 70%;
+}
+.copyright img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto 1% auto;
+}
+.footercontent {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  margin: 3% 0%;
+  font-size: 80%;
+}
+h4 {
+  font-size: 23px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.content a {
+  color: white;
+  text-decoration: none;
+}
+.footeroptions {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(135, 158, 15);
+  color: white;
+}
+.option {
+  text-align: center;
+  margin: 2% 0%;
+}
+
+.option p {
+  margin-bottom: 0%;
+}

@@ -1,0 +1,59 @@
+/*body {
+  background-color: #193549;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+h1{
+    font-size: 80px;
+}
+span {
+  color: var(--base);
+}
+input {
+  font-size: 100px;
+}
+.controls {
+  margin-bottom: 30px;
+}
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}*/
+:root{
+  --color: #e74c3c;
+  --spacing:10px;
+  --blur:5px;
+}
+body{
+  background-color: blue;
+}
+h1{
+  color:white;
+  font-size: 4em;
+  text-align: center;
+}
+span{
+  color: var(--color);
+}
+section{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+label{
+  color:white;
+}
+img{
+  padding: var(--spacing);
+  margin-top: 2%;
+  width: 100% ;
+  background-color: var(--color);
+  filter: blur(var(--blur));
+}

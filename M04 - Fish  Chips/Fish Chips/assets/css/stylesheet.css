@@ -1,0 +1,176 @@
+@font-face {
+  font-family: Slabo;
+  src: url("../fonts/Slabo27px-Regular.ttf") format(truetype);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Italic-VariableFont_wdth\wght.ttf) format(truetype);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-VariableFont_wdth\wght.ttf) format(truetype);
+}
+*{box-sizing: border-box;}
+header {
+  background-color: #34b1b2;
+  margin-top: 50px;
+  border-top: 5px solid #2b9aa0;
+  border-bottom: 5px solid #2b9aa0;
+}
+
+header nav {
+  font-family: "Slabo";
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+main {min-width: 800px;
+  max-width: 1100px;
+margin: 0 auto;}
+header a {
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+}
+header img {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+body {
+
+  font-family: "Open Sans";
+  font-size: 1em;
+  background-image: url(../img/fond.png);
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Slabo";
+  font-size: 2.5em;
+  text-align: center;
+  color: #454a54;
+  font-weight: normal;
+}
+h2 {
+  font-family: "Slabo";
+  font-size: 3.5em;
+  text-align: center;
+  color: #454a54;
+  font-weight: normal;
+  margin: 10px;
+}
+h3 {
+  font-family: "Slabo";
+  font-size: 1.8em;
+  text-align: center;
+  color: #454a54;
+  font-weight: normal;
+}
+h4 {
+  font-family: "Slabo";
+  font-size: 1.4em;
+  color: white;
+  margin: 5% 5%;
+  font-weight: normal;
+  text-align: center;
+}
+h5 {
+  font-family: "Slabo";
+  font-size: 1em;
+  color: #b6dedc;
+  margin: 5% 5%;
+  font-weight: normal;
+}
+
+#welcome {
+  font-family: "Open Sans ";
+  font-size: 1em;
+  text-align: center;
+  color: #454a54;
+  width: 50%;
+  margin: 0 auto 50px auto;
+}
+main {
+  width: 70%;
+  margin: auto;
+}
+#blockgauche {
+  background-color: #b6dedc;
+  float: left;
+  width: 70%;
+
+}
+#blockgauche i {
+  color: #2b9aa0;
+  font-size: medium;
+}
+#crustyfish {
+  width: 42%;
+  margin: 0 3%;
+display: inline-block
+}
+#crustyfish img {
+  margin: 5px;
+  float: left;
+  border-radius: 100%;
+}
+#multifish {
+ display: inline-block;
+  width: 44%;
+  margin: 0 3%;
+  vertical-align: top;
+  
+}
+#multifish img {
+  margin: 5px;
+  float: left;
+  border-radius: 100%;
+}
+#blockdroite {
+  background-color: #34b1b2;
+  border: 5px solid #2b9aa0;
+  float: right;
+  width: 28%;
+  color: #e2f4f5;
+  position: relative;
+}
+#blockdroite img {
+  position: absolute;
+  width: 100px;
+  top: -35px;
+  right: -35px;
+}
+#blockdroite article {
+  margin: 2% 5%;
+}
+
+.footer {
+  text-align: center;
+  clear: both;
+}
+.Propriété {
+  color: #454a54;
+}
+.span {
+  color: #2d00ed;
+  text-decoration: none;
+}
+.center {
+  margin-top: 15px;
+  margin-bottom: -15px;
+  width: 30px;
+  height: 30px;
+}
+#multifish .bouton {
+  padding: 3% 3%;
+}
+bouton {
+  background-color: #34b1b2;
+  color: white;
+  padding: 5% 10%;
+  margin: 5%;
+  text-align: center;
+  float: right;
+  font-size: 15px;
+}

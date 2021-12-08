@@ -1,0 +1,24 @@
+.nouveauté {
+  flex-wrap: wrap;
+}
+.concept {
+  flex-wrap: wrap;
+}
+.typethé {
+  flex-wrap: wrap;
+}
+.introthé img {
+  display: none;
+}
+.transparent {
+  background-color: rgb(174, 189, 64);
+}
+.ref h1 {
+  font-size: 20px;
+}
+.ref h2 {
+  font-size: 15px;
+}
+.ref p {
+  font-size: 15px;
+}

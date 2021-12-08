@@ -1,0 +1,6 @@
+#none {
+  display: inline-block;
+}
+p,h1,h2,a,footer p {
+    font-size: 100%;
+  }

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Oswald;
+  src: url("./fonts/Oswald_Font/Oswald-Bold.ttf") format(truetype);
+}
+@font-face {
+  font-family: Oswald;
+  src: url("./fonts/Oswald_Font/Oswald-Light.ttf") format(truetype);
+}
+@font-face {
+  font-family: Oswald;
+  src: url("./fonts/Oswald_Font/Oswald-Regular.ttf") format(truetype);
+}
+
+body {
+  background-image: url("../assets/img/fond.png");
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+header,
+main {
+  max-width: 750px;
+  margin: 0 auto;
+}
+header {
+  background-color: #b7cb21;
+}
+header nav {
+  float: right;
+  padding: 50px 0;
+}
+
+header a {
+  text-align: center;
+  font-family: "Oswald";
+  /*text-decoration: underline;*/
+  font-size: 1.3em;
+  padding: 50px 20px;
+  color: #315621;
+}
+section {
+  background: white;
+  padding: 10px 30px;
+}
+h1 {
+  color: #b7cb21;
+}
+.clearfix {
+  clear: both;
+}
+section img {
+  float: left;
+  width: 230px;
+  height: 100px;
+  margin-right: 1%;
+}
+
+.boutton {
+  display: inline;
+  background-color: #b7cb21;
+  color: white;
+  float: right;
+  padding: 10px;
+}
+
+.footer {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.Propriété {
+  color: #637373;
+}
+.span {
+  color: #6b2393;
+  text-decoration: underline #6b2393;
+}
+.center {
+  margin-top: 15px;
+  margin-bottom: -15px;
+  width: 30px;
+  height: 30px;
+}

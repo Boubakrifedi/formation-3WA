@@ -1,0 +1,40 @@
+body {
+  max-width: 80%;
+  margin: 0 auto;
+}
+#welcome,
+#section,
+footer,
+header,
+#none {
+  margin: 0%;
+}
+header nav {
+  text-align: center;
+}
+header a {
+  display: inline-block;
+  margin: 0 5%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+
+.blockgauche {
+  width: 70%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#none {
+  width: 28%;
+  float: right;
+  box-sizing: border-box;
+}
+footer {
+  clear: both;
+  margin-top: 5%;
+}
+p,h1,h2,a,footer p {
+  font-size: 100%;
+}

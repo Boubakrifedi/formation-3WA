@@ -1,0 +1,66 @@
+header > img {
+  display: none;
+}
+nav a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+.transparent {
+  background-color: rgb(174, 189, 64);
+}
+.noel h1 {
+  font-size: 20px;
+}
+.logo {
+  justify-content: center;
+  padding-top: 10%;
+}
+header {
+  position: relative;
+}
+.logo p {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  padding: 2px 7px;
+  border-radius: 0 30px 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 10.6px;
+}
+span {
+  display: none;
+}
+.refnote {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.note {
+  align-items: center;
+  text-align: center;
+}
+.image {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.validation {
+  align-items: center;
+}
+.nouveauté {
+  flex-wrap: wrap;
+}
+.footercontent {
+  flex-direction: column;
+}
+.content {
+  margin: 4% 0%;
+}
+.footeroptions {
+  flex-wrap: wrap;
+}
+.typethé {
+  flex-wrap: wrap;
+}
+.introthé img {
+  display: none;
+}

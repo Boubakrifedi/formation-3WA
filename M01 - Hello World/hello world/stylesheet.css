@@ -1,0 +1,23 @@
+h1{margin-top:0px}
+nav p{ color:#4264fd;
+text-decoration: underline;
+display: inline-block;
+margin:0 0 0 0}
+.intro{font-weight: bold;
+    font-size:22px;}
+.languages{font-weight: bold;}
+.matières{font-weight: bold;
+    font-size: 20px;}
+#dev img:nth-child(3){margin-left: 30px;}
+#dev img:nth-child(9){margin-left: 20px;}
+
+#extra{border-top: 1px solid black;
+    border-bottom: 1px solid black;}
+.center{display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width:30px;
+    height: 30px;}
+span{color:#541b90;
+text-decoration: underline #541b90 ;}
+footer p{text-align:center;font-size:10px}
