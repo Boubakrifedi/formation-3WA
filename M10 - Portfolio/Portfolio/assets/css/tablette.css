@@ -1,0 +1,50 @@
+header {
+  display: block;
+}
+.logo {
+  flex-direction: column;
+  width: unset;
+}
+header p {
+  font-size: 60px;
+  padding-left: 0;
+  margin-top: 1%;
+}
+header img {
+  width: 25%;
+  height: 25%;
+  padding-top: 5%;
+}
+nav {
+    justify-content: space-around;  
+    width: unset;
+  }
+  a{
+      font-size: 25px;
+  }
+
+#section-competence div,
+#section-service div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#section-competence article,
+#section-service article {
+  padding-bottom: 10%;
+}
+
+#section-realisation,
+#section-contact {
+  margin: 7% 2%;
+}
+#section-competence,
+#section-service {
+  margin: 0 2%;
+}
+
+footer {
+  margin: 3% 2%;
+}

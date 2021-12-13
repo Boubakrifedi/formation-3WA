@@ -1,0 +1,50 @@
+nav {
+  flex-direction: column;
+}
+
+a {
+  padding-bottom: 20%;
+}
+.welcome article {
+    padding: 30% 5%;
+}
+.welcome {
+  background-size: 300%;
+  background-position: left;
+}
+#orangejuice img,
+#AquaPlant img {
+  width: 100%;
+}
+#timepast img,
+#Sweetflower img {
+  width: 100%;
+}
+#section-competence,
+#section-service {
+  margin: 0 5%;}
+  #section-realisation {
+  margin: 7% 5%;}
+  
+footer,#section-contact {
+  
+    margin: 3% 10%;
+  
+  }
+  #input-prenom {
+    padding: 2%;
+    width: 100%;
+    display: block;
+  }
+  #input-mail {
+      padding: 2%;
+float: unset;
+  width: 100%;
+    margin-top: 2%;}
+  #input-msg {
+    margin-top: 2%;
+     
+        padding: 2%;
+        border-radius: 30px;
+        width: 100%;
+      }

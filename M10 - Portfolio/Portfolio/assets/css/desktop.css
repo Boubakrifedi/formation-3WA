@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Bree Serif";
+  src: url("../font/BreeSerif-Regular.ttf") format("truetype");
+}
+@keyframes bounce{ from {transform: translateY(0);} to {transform: translateY(-20px);} }
+body {
+  background-image: url(../img/fond.png);
+  margin: 0%;
+  font-family: "Bree Serif";
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 15%;
+  color: gray;
+}
+header p {
+  font-size: 40px;
+  padding-left: 3%;
+}
+header p:hover {
+  color :deeppink
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.boutonnav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav i {
+  font-size: 25px;
+  padding-bottom: 20%;
+}
+header img ,footer img {
+  width: 40px;
+  height: 40px;
+}
+header img:hover {
+    transform: scale(1.5); 
+    padding-bottom: 5%;
+  }
+
+nav a:hover{
+  color :deeppink;
+  font-size: 10px;
+}
+
+
+
+
+.welcome {
+  background-image: url(../img/bg_header.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+.welcome article {
+  padding: 15%;
+}
+button {
+  margin-top: 10%;
+  background-color: crimson;
+  color: white;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+#section-competence,
+#section-service {
+  margin: 0 15%;
+  color: gray;
+}
+#section-competence h1,
+#section-service h1 {
+  text-align: center;
+  color: deeppink;
+  padding-top: 5%;
+}
+#section-competence article,
+#section-service article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 4%;
+}
+#section-competence div,
+#section-service div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+#section-service h2 {
+  color: deeppink;
+}
+
+hr {
+  margin-bottom: 5%;
+}
+#section-service i {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid gray;
+  border-radius: 100%;
+  padding: 5%;
+  font-size: 25px;
+  animation: bounce 0.35s ease infinite alternate; 
+}
+#section-realisation,
+#section-contact {
+  margin: 7% 15%;
+
+  color: gray;
+}
+#section-realisation h1,
+#section-contact h1 {
+  text-align: center;
+  color: deeppink;
+}
+#section-realisation h4 {
+  color: deeppink;
+}
+#orangejuice img,
+#AquaPlant img {
+  float: right;
+  width: 50%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+#section-realisation a {
+  color: deeppink;
+  padding-left: 2%;
+  text-decoration: none;
+}
+#timepast img,
+#Sweetflower img {
+  float: left;
+  width: 50%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+form {
+  margin-top: 5%;
+}
+form i {
+  background-color: deeppink;
+  color: white;
+  padding: 1%;
+  border-radius: 100%;
+  font-size: 25px;
+}
+#section-contact input {
+  border: 0;
+  background-color: unset;
+  padding-left: 2%;
+  font-size: 16px;
+}
+#input-prenom {
+  border: 2px solid gray;
+  padding: 1%;
+  border-radius: 30px;
+  width: 45%;
+  display: inline-block;
+}
+#input-mail {
+  border: 2px solid gray;
+  padding: 1%;
+  border-radius: 30px;
+  width: 45%;
+  float: right;
+}
+#input-msg {
+  margin-top: 5%;
+  border: 2px solid gray;
+  padding: 1%;
+  border-radius: 30px;
+}
+#button-effacer {
+  background-color: gray;
+  border-radius: 5px;
+  margin-left: 1%;
+}
+#button-envoyer {
+  background-color: deeppink;
+  border-radius: 5px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  color: gray;
+  margin: 3% 10%;
+  text-align: center;
+}
+span {
+  color: deeppink;
+}
